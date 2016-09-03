@@ -1,0 +1,2061 @@
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/aaron/Desktop/cf-web-app-builder/jobapp/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/aaron/Desktop/cf-web-app-builder/jobapp/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-03 10:23:47 +1000
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.0.0.1) lib/active_record/migration.rb:572:in `check_pending!'
+activerecord (5.0.0.1) lib/active_record/migration.rb:548:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.7ms)
+  Rendering /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (106.6ms)
+Started GET "/" for ::1 at 2016-09-03 10:23:49 +1000
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.0.0.1) lib/active_record/migration.rb:572:in `check_pending!'
+activerecord (5.0.0.1) lib/active_record/migration.rb:548:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (78.7ms)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/aaron/Desktop/cf-web-app-builder/jobapp/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/aaron/Desktop/cf-web-app-builder/jobapp/config/environment.rb:5)
+  [1m[35m (3.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (2.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DeviseCreateUsers (20160827015815)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160827015815"]]
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+Migrating to RolifyCreateRoles (20160827020115)
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+DEPRECATION WARNING: Directly inheriting from ActiveRecord::Migration is deprecated. Please specify the Rails release the migration was written for:
+
+  class RolifyCreateRoles < ActiveRecord::Migration[4.2] (called from require at /Users/aaron/Desktop/cf-web-app-builder/jobapp/bin/rails:9)
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "roles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "resource_type" varchar, "resource_id" integer, "created_at" datetime, "updated_at" datetime)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "users_roles" ("user_id" integer, "role_id" integer)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_roles_on_name" ON "roles" ("name")[0m
+  [1m[35m (0.2ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_roles_on_name' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_roles_on_name' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_roles_on_name_and_resource_type_and_resource_id" ON "roles" ("name", "resource_type", "resource_id")[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE  INDEX "index_users_roles_on_user_id_and_role_id" ON "users_roles" ("user_id", "role_id")[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160827020115"]]
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateCompanyProfiles (20160827035657)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "company_profiles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar, "last_name" varchar, "phone" varchar, "company_name" varchar, "logo" varchar, "description" text, "street" varchar, "suburb" varchar, "postcode" varchar, "country" varchar, "latitude" float, "longitude" float, "company_culture" text, "company_type" varchar, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_company_profiles_on_user_id" ON "company_profiles" ("user_id")[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160827035657"]]
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+Migrating to AddUserTypeToUser (20160827041411)
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (3.1ms)[0m  [1m[35mALTER TABLE "users" ADD "user_type" varchar[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160827041411"]]
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", 2016-09-03 00:23:58 UTC], ["updated_at", 2016-09-03 00:23:58 UTC]]
+  [1m[35m (7.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_company_profiles_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_company_profiles_on_user_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_roles_on_name_and_resource_type_and_resource_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_roles_on_name_and_resource_type_and_resource_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_roles_on_name' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_roles_on_name' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_roles_on_user_id_and_role_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_roles_on_user_id_and_role_id' AND type='index'
+[0m
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/aaron/Desktop/cf-web-app-builder/jobapp/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/aaron/Desktop/cf-web-app-builder/jobapp/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-03 10:24:12 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (6.8ms)
+  Rendered shared/_navbar.html.erb (6.5ms)
+  Rendered shared/_alerts.html.erb (0.7ms)
+Completed 200 OK in 5452ms (Views: 5430.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up?user_type=company" for ::1 at 2016-09-03 10:24:22 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"user_type"=>"company"}
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (229.2ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_alerts.html.erb (0.7ms)
+Completed 200 OK in 326ms (Views: 300.1ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/users" for ::1 at 2016-09-03 10:24:24 +1000
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0v89aPp5q7DKumNLSaZjag8owxYBFy8tVyRDnbOl8L7APeRlJ4z7ZFXCRnGqSDoepVpx5gXob8tRc3k0j/9dRw==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "user_type"=>"company"}, "commit"=>"Sign up"}
+  [1m[35m (0.7ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (11.7ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_alerts.html.erb (0.5ms)
+Completed 200 OK in 99ms (Views: 75.7ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/users" for ::1 at 2016-09-03 10:24:31 +1000
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fxDsTnVzPNoSnRRu+Pk7QPdDlzVBsdHvp6hRS02K739t0jVDqIZsDo3lMVQbF2I0XTElxUVOkQmh/2vicdBChg==", "user"=>{"email"=>"aaron@aarontakizad.com", "password"=>"[FILTERED]", "user_type"=>""}, "commit"=>"Sign up"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "aaron@aarontakizad.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "user_type") VALUES (?, ?, ?, ?, ?)[0m  [["email", "aaron@aarontakizad.com"], ["encrypted_password", "$2a$11$T/2lYq8FOUuZ0rQIKAOY3ubO33COHKHgAL1WbEIQUaQR30F26nbvy"], ["created_at", 2016-09-03 00:24:31 UTC], ["updated_at", 2016-09-03 00:24:31 UTC], ["user_type", ""]]
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = ?, "current_sign_in_at" = ?, "last_sign_in_at" = ?, "current_sign_in_ip" = ?, "last_sign_in_ip" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["sign_in_count", 1], ["current_sign_in_at", 2016-09-03 00:24:31 UTC], ["last_sign_in_at", 2016-09-03 00:24:31 UTC], ["current_sign_in_ip", "::1"], ["last_sign_in_ip", "::1"], ["updated_at", 2016-09-03 00:24:31 UTC], ["id", 1]]
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 339ms (ActiveRecord: 11.7ms)
+
+
+Started GET "/" for ::1 at 2016-09-03 10:24:31 +1000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_alerts.html.erb (0.7ms)
+Completed 200 OK in 64ms (Views: 60.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/sign_up?user_type=company" for ::1 at 2016-09-03 10:24:32 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"user_type"=>"company"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-09-03 10:24:32 +1000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.8ms)
+  Rendered shared/_alerts.html.erb (1.1ms)
+Completed 200 OK in 118ms (Views: 115.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/sign_up?user_type=company" for ::1 at 2016-09-03 10:24:34 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"user_type"=>"company"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-09-03 10:24:34 +1000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.4ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 114ms (Views: 111.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/sign_up?user_type=company" for ::1 at 2016-09-03 10:24:38 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"user_type"=>"company"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-09-03 10:24:38 +1000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.3ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 106ms (Views: 103.2ms | ActiveRecord: 0.3ms)
+
+
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/aaron/Desktop/cf-web-app-builder/jobapp/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/aaron/Desktop/cf-web-app-builder/jobapp/config/environment.rb:5)
+Started GET "/company_profiles" for ::1 at 2016-09-03 10:25:02 +1000
+Processing by CompanyProfilesController#index as HTML
+  Rendering company_profiles/index.html.erb within layouts/application
+  [1m[36mCompanyProfile Load (0.3ms)[0m  [1m[34mSELECT "company_profiles".* FROM "company_profiles"[0m
+  Rendered company_profiles/index.html.erb within layouts/application (3.9ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (11.6ms)
+  Rendered shared/_alerts.html.erb (1.0ms)
+Completed 200 OK in 94ms (Views: 77.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/company_profiles/new" for ::1 at 2016-09-03 10:25:04 +1000
+Processing by CompanyProfilesController#new as HTML
+  Rendering company_profiles/new.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered company_profiles/_form.html.erb (122.6ms)
+  Rendered company_profiles/new.html.erb within layouts/application (125.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_alerts.html.erb (0.6ms)
+Completed 200 OK in 231ms (Views: 202.1ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/company_profiles" for ::1 at 2016-09-03 10:26:18 +1000
+Processing by CompanyProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Wof44CPyj7xafdeqxrRm5zSq4gY1VQD7o3lcW02W/H9IRSHt/gffaMUF8pAlWj+TnthQ9jGqQB2lLmbyccxRhg==", "company_profile"=>{"first_name"=>"Aaron", "last_name"=>"Takizad", "phone"=>"0431438241", "company_name"=>"Freelance Web Developer", "description"=>"", "street"=>"4 Montpellier Rise", "suburb"=>"Bella Vista", "postcode"=>"2153", "country"=>"AU", "latitude"=>"1", "longitude"=>"2", "company_culture"=>"Great", "company_type"=>"Awesome", "user_id"=>"1"}, "commit"=>"Create Company profile"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "company_profiles" ("first_name", "last_name", "phone", "company_name", "description", "street", "suburb", "postcode", "country", "latitude", "longitude", "company_culture", "company_type", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Aaron"], ["last_name", "Takizad"], ["phone", "0431438241"], ["company_name", "Freelance Web Developer"], ["description", ""], ["street", "4 Montpellier Rise"], ["suburb", "Bella Vista"], ["postcode", "2153"], ["country", "AU"], ["latitude", 1.0], ["longitude", 2.0], ["company_culture", "Great"], ["company_type", "Awesome"], ["user_id", 1], ["created_at", 2016-09-03 00:26:18 UTC], ["updated_at", 2016-09-03 00:26:18 UTC]]
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/company_profiles/1
+Completed 302 Found in 16ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/company_profiles/1" for ::1 at 2016-09-03 10:26:18 +1000
+Processing by CompanyProfilesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCompanyProfile Load (0.9ms)[0m  [1m[34mSELECT  "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering company_profiles/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered company_profiles/show.html.erb within layouts/application (41.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.1ms)
+  Rendered shared/_alerts.html.erb (0.8ms)
+Completed 200 OK in 123ms (Views: 110.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/company_profiles" for ::1 at 2016-09-03 10:26:20 +1000
+Processing by CompanyProfilesController#index as HTML
+  Rendering company_profiles/index.html.erb within layouts/application
+  [1m[36mCompanyProfile Load (0.4ms)[0m  [1m[34mSELECT "company_profiles".* FROM "company_profiles"[0m
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered company_profiles/index.html.erb within layouts/application (10.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.2ms)
+  Rendered shared/_alerts.html.erb (1.0ms)
+Completed 200 OK in 111ms (Views: 105.1ms | ActiveRecord: 2.8ms)
+
+
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/aaron/Desktop/cf-web-app-builder/jobapp/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/aaron/Desktop/cf-web-app-builder/jobapp/config/environment.rb:5)
+Started GET "/company_profiles" for ::1 at 2016-09-03 10:28:41 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CompanyProfilesController#index as HTML
+  Rendering company_profiles/index.html.erb within layouts/application
+  [1m[36mCompanyProfile Load (0.2ms)[0m  [1m[34mSELECT "company_profiles".* FROM "company_profiles"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered company_profiles/index.html.erb within layouts/application (47.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (6.2ms)
+  Rendered shared/_alerts.html.erb (0.8ms)
+Completed 200 OK in 551ms (Views: 519.2ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/company_profiles/new" for ::1 at 2016-09-03 10:29:14 +1000
+Processing by CompanyProfilesController#new as HTML
+  Rendering company_profiles/new.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered company_profiles/_form.html.erb (208.9ms)
+  Rendered company_profiles/new.html.erb within layouts/application (217.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.0ms)
+  Rendered shared/_alerts.html.erb (0.8ms)
+Completed 200 OK in 286ms (Views: 281.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/company_profiles" for ::1 at 2016-09-03 10:29:37 +1000
+Processing by CompanyProfilesController#index as HTML
+  Rendering company_profiles/index.html.erb within layouts/application
+  [1m[36mCompanyProfile Load (0.4ms)[0m  [1m[34mSELECT "company_profiles".* FROM "company_profiles"[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered company_profiles/index.html.erb within layouts/application (4.8ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.1ms)
+  Rendered shared/_alerts.html.erb (0.7ms)
+Completed 200 OK in 80ms (Views: 73.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/company_profiles" for ::1 at 2016-09-03 10:29:38 +1000
+Processing by CompanyProfilesController#index as HTML
+  Rendering company_profiles/index.html.erb within layouts/application
+  [1m[36mCompanyProfile Load (0.2ms)[0m  [1m[34mSELECT "company_profiles".* FROM "company_profiles"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered company_profiles/index.html.erb within layouts/application (4.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 96ms (Views: 91.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/company_profiles/new" for ::1 at 2016-09-03 10:29:39 +1000
+Processing by CompanyProfilesController#new as HTML
+  Rendering company_profiles/new.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered company_profiles/_form.html.erb (51.5ms)
+  Rendered company_profiles/new.html.erb within layouts/application (54.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 140ms (Views: 134.2ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/company_profiles/1" for ::1 at 2016-09-03 10:29:45 +1000
+Processing by CompanyProfilesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"SKSQgyeiqI5WycJtLcNBS9/sbi1NqhYNCOYH6fyZpbZaZkmO+lf4Wsmx51fOLRg/dZ7c3UlVVusOsT1AwMMITw==", "id"=>"1"}
+  [1m[36mCompanyProfile Load (0.2ms)[0m  [1m[34mSELECT  "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM "company_profiles" WHERE "company_profiles"."id" = ?[0m  [["id", 1]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/company_profiles
+Completed 302 Found in 9ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/company_profiles" for ::1 at 2016-09-03 10:29:45 +1000
+Processing by CompanyProfilesController#index as HTML
+  Rendering company_profiles/index.html.erb within layouts/application
+  [1m[36mCompanyProfile Load (0.4ms)[0m  [1m[34mSELECT "company_profiles".* FROM "company_profiles"[0m
+  Rendered company_profiles/index.html.erb within layouts/application (2.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_alerts.html.erb (0.5ms)
+Completed 200 OK in 64ms (Views: 60.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/company_profiles/new" for ::1 at 2016-09-03 10:29:47 +1000
+Processing by CompanyProfilesController#new as HTML
+  Rendering company_profiles/new.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered company_profiles/_form.html.erb (68.0ms)
+  Rendered company_profiles/new.html.erb within layouts/application (71.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.5ms)
+  Rendered shared/_alerts.html.erb (1.2ms)
+Completed 200 OK in 175ms (Views: 172.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2016-09-03 10:50:58 +1000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+  Rendered shared/_navbar.html.erb (7.7ms)
+  Rendered shared/_alerts.html.erb (0.8ms)
+Completed 200 OK in 155ms (Views: 146.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-03 10:50:59 +1000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 79ms (Views: 75.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up?user_type=company" for ::1 at 2016-09-03 10:51:00 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"user_type"=>"company"}
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (12.7ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_alerts.html.erb (0.7ms)
+Completed 200 OK in 106ms (Views: 79.4ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-09-03 10:51:03 +1000
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (17.9ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_alerts.html.erb (0.7ms)
+Completed 200 OK in 91ms (Views: 87.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2016-09-03 10:51:07 +1000
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+clCqqF2oeacsldW+75yU3emjvpSzteYaq4jrobjFPqP+MfN/LpLqG0F0xlRVIfGC44arBvTDrBH+CNctKMvKQ==", "user"=>{"email"=>"aaron@aarontakizad.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "aaron@aarontakizad.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", 2016-09-03 00:51:08 UTC], ["sign_in_count", 2], ["updated_at", 2016-09-03 00:51:08 UTC], ["id", 1]]
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 253ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/" for ::1 at 2016-09-03 10:51:08 +1000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.3ms)
+  Rendered shared/_alerts.html.erb (0.8ms)
+Completed 200 OK in 71ms (Views: 63.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/sign_up?user_type=company" for ::1 at 2016-09-03 10:51:10 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"user_type"=>"company"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-09-03 10:51:10 +1000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (4.1ms)
+  Rendered shared/_alerts.html.erb (1.0ms)
+Completed 200 OK in 112ms (Views: 106.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/company_profiles" for ::1 at 2016-09-03 10:51:31 +1000
+Processing by CompanyProfilesController#index as HTML
+  Rendering company_profiles/index.html.erb within layouts/application
+  [1m[36mCompanyProfile Load (0.3ms)[0m  [1m[34mSELECT "company_profiles".* FROM "company_profiles"[0m
+  Rendered company_profiles/index.html.erb within layouts/application (5.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.4ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 80ms (Views: 71.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/company_profiles/new" for ::1 at 2016-09-03 10:51:32 +1000
+Processing by CompanyProfilesController#new as HTML
+  Rendering company_profiles/new.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered company_profiles/_form.html.erb (55.1ms)
+  Rendered company_profiles/new.html.erb within layouts/application (59.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 170ms (Views: 126.7ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/company_profiles" for ::1 at 2016-09-03 10:51:57 +1000
+Processing by CompanyProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sEx/eWMP1vCqoUrv6Cpn54Eb20nS7iN38WVo88SMLJMZj2a+xS+YAB4V96+y6vexREwnb7lhPz+YfJy9CXDsig==", "company_profile"=>{"first_name"=>"Aaron", "last_name"=>"Takizad", "phone"=>"0431438241", "company_name"=>"Freelance Web Developer", "description"=>"Code With Me", "company_culture"=>"Chill af", "street"=>"4 Montpellier Rise", "suburb"=>"Bella Vista", "postcode"=>"2153", "country"=>"AU", "company_type"=>"New Startup", "user_id"=>"1"}, "commit"=>"Create Company profile"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "company_profiles" ("first_name", "last_name", "phone", "company_name", "description", "street", "suburb", "postcode", "country", "company_culture", "company_type", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Aaron"], ["last_name", "Takizad"], ["phone", "0431438241"], ["company_name", "Freelance Web Developer"], ["description", "Code With Me"], ["street", "4 Montpellier Rise"], ["suburb", "Bella Vista"], ["postcode", "2153"], ["country", "AU"], ["company_culture", "Chill af"], ["company_type", "New Startup"], ["user_id", 1], ["created_at", 2016-09-03 00:51:57 UTC], ["updated_at", 2016-09-03 00:51:57 UTC]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/company_profiles/2
+Completed 302 Found in 12ms (ActiveRecord: 3.9ms)
+
+
+Started GET "/company_profiles/2" for ::1 at 2016-09-03 10:51:57 +1000
+Processing by CompanyProfilesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCompanyProfile Load (0.4ms)[0m  [1m[34mSELECT  "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering company_profiles/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered company_profiles/show.html.erb within layouts/application (14.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.1ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 89ms (Views: 83.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/company_profiles" for ::1 at 2016-09-03 10:51:59 +1000
+Processing by CompanyProfilesController#index as HTML
+  Rendering company_profiles/index.html.erb within layouts/application
+  [1m[36mCompanyProfile Load (0.3ms)[0m  [1m[34mSELECT "company_profiles".* FROM "company_profiles"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered company_profiles/index.html.erb within layouts/application (6.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.8ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 111ms (Views: 107.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/company_profiles" for ::1 at 2016-09-03 10:53:47 +1000
+Processing by CompanyProfilesController#index as HTML
+  Rendering company_profiles/index.html.erb within layouts/application
+  [1m[36mCompanyProfile Load (0.2ms)[0m  [1m[34mSELECT "company_profiles".* FROM "company_profiles"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered company_profiles/index.html.erb within layouts/application (5.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.4ms)
+  Rendered shared/_alerts.html.erb (0.8ms)
+Completed 200 OK in 73ms (Views: 69.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/company_profiles/new" for ::1 at 2016-09-03 10:53:49 +1000
+Processing by CompanyProfilesController#new as HTML
+  Rendering company_profiles/new.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered company_profiles/_form.html.erb (59.5ms)
+  Rendered company_profiles/new.html.erb within layouts/application (63.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_alerts.html.erb (1.1ms)
+Completed 200 OK in 144ms (Views: 140.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/company_profiles/new" for ::1 at 2016-09-03 10:53:58 +1000
+Processing by CompanyProfilesController#new as HTML
+  Rendering company_profiles/new.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered company_profiles/_form.html.erb (63.9ms)
+  Rendered company_profiles/new.html.erb within layouts/application (68.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.4ms)
+  Rendered shared/_alerts.html.erb (1.0ms)
+Completed 200 OK in 147ms (Views: 142.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/company_profiles/new" for ::1 at 2016-09-03 10:55:05 +1000
+Processing by CompanyProfilesController#new as HTML
+  Rendering company_profiles/new.html.erb within layouts/application
+  Rendered company_profiles/_form.html.erb (42.5ms)
+  Rendered company_profiles/new.html.erb within layouts/application (44.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.5ms)
+  Rendered shared/_alerts.html.erb (0.8ms)
+Completed 200 OK in 116ms (Views: 112.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/company_profiles/new" for ::1 at 2016-09-03 10:55:07 +1000
+Processing by CompanyProfilesController#new as HTML
+  Rendering company_profiles/new.html.erb within layouts/application
+  Rendered company_profiles/_form.html.erb (39.6ms)
+  Rendered company_profiles/new.html.erb within layouts/application (42.5ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (4.4ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 117ms (Views: 112.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/company_profiles/new" for ::1 at 2016-09-03 10:55:37 +1000
+Processing by CompanyProfilesController#new as HTML
+  Rendering company_profiles/new.html.erb within layouts/application
+  Rendered company_profiles/_form.html.erb (47.8ms)
+  Rendered company_profiles/new.html.erb within layouts/application (50.6ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.8ms)
+  Rendered shared/_alerts.html.erb (1.2ms)
+Completed 200 OK in 137ms (Views: 131.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/company_profiles" for ::1 at 2016-09-03 11:05:00 +1000
+Processing by CompanyProfilesController#index as HTML
+  Rendering company_profiles/index.html.erb within layouts/application
+  [1m[36mCompanyProfile Load (0.5ms)[0m  [1m[34mSELECT "company_profiles".* FROM "company_profiles"[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered company_profiles/index.html.erb within layouts/application (35.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.2ms)
+  Rendered shared/_alerts.html.erb (2.6ms)
+Completed 200 OK in 141ms (Views: 125.5ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/company_profiles" for ::1 at 2016-09-03 11:05:01 +1000
+Processing by CompanyProfilesController#index as HTML
+  Rendering company_profiles/index.html.erb within layouts/application
+  [1m[36mCompanyProfile Load (0.2ms)[0m  [1m[34mSELECT "company_profiles".* FROM "company_profiles"[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered company_profiles/index.html.erb within layouts/application (4.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 96ms (Views: 92.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/company_profiles/new" for ::1 at 2016-09-03 11:05:55 +1000
+Processing by CompanyProfilesController#new as HTML
+  Rendering company_profiles/new.html.erb within layouts/application
+  Rendered company_profiles/_form.html.erb (56.7ms)
+  Rendered company_profiles/new.html.erb within layouts/application (60.4ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_alerts.html.erb (0.7ms)
+Completed 200 OK in 126ms (Views: 121.8ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/company_profiles" for ::1 at 2016-09-03 11:06:08 +1000
+Processing by CompanyProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Lgpmmb2R8iCTJ3FM2OGQwqxS0PoEsVPID/LzTpoCQMeHyX9eG7G80CeTzAyCIQCUaQUs3G8+T4Bm6wcAV/6A3g==", "company_profile"=>{"first_name"=>"Aaron", "last_name"=>"Takizad", "phone"=>"0431438241", "company_name"=>"Freelance Web Developer", "company_type"=>"New Startup", "description"=>"Hi", "company_culture"=>"Hi", "street"=>"4 Montpellier Rise", "suburb"=>"Bella Vista", "postcode"=>"2153", "country"=>"AU"}, "commit"=>"Create Company profile"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "company_profiles" ("first_name", "last_name", "phone", "company_name", "description", "street", "suburb", "postcode", "country", "company_culture", "company_type", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Aaron"], ["last_name", "Takizad"], ["phone", "0431438241"], ["company_name", "Freelance Web Developer"], ["description", "Hi"], ["street", "4 Montpellier Rise"], ["suburb", "Bella Vista"], ["postcode", "2153"], ["country", "AU"], ["company_culture", "Hi"], ["company_type", "New Startup"], ["user_id", 1], ["created_at", 2016-09-03 01:06:08 UTC], ["updated_at", 2016-09-03 01:06:08 UTC]]
+  [1m[35m (10.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/company_profiles/3
+Completed 302 Found in 21ms (ActiveRecord: 11.3ms)
+
+
+Started GET "/company_profiles/3" for ::1 at 2016-09-03 11:06:08 +1000
+Processing by CompanyProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCompanyProfile Load (0.4ms)[0m  [1m[34mSELECT  "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering company_profiles/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered company_profiles/show.html.erb within layouts/application (2.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.8ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 88ms (Views: 83.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/company_profiles" for ::1 at 2016-09-03 11:06:10 +1000
+Processing by CompanyProfilesController#index as HTML
+  Rendering company_profiles/index.html.erb within layouts/application
+  [1m[36mCompanyProfile Load (0.7ms)[0m  [1m[34mSELECT "company_profiles".* FROM "company_profiles"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered company_profiles/index.html.erb within layouts/application (10.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.7ms)
+  Rendered shared/_alerts.html.erb (1.6ms)
+Completed 200 OK in 120ms (Views: 113.6ms | ActiveRecord: 1.6ms)
+
+
+Started DELETE "/company_profiles/2" for ::1 at 2016-09-03 11:06:15 +1000
+Processing by CompanyProfilesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"hQrVWD433MrBAr9vLH0I1QVcWK12DKlHiNFMlZA01ZksycyfmBeSOnW2Ai92vZiDwAukix2DtQ/hyLjbXcgVgA==", "id"=>"2"}
+  [1m[36mCompanyProfile Load (0.6ms)[0m  [1m[34mSELECT  "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "company_profiles" WHERE "company_profiles"."id" = ?[0m  [["id", 2]]
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/company_profiles
+Completed 302 Found in 9ms (ActiveRecord: 3.6ms)
+
+
+Started GET "/company_profiles" for ::1 at 2016-09-03 11:06:15 +1000
+Processing by CompanyProfilesController#index as HTML
+  Rendering company_profiles/index.html.erb within layouts/application
+  [1m[36mCompanyProfile Load (0.3ms)[0m  [1m[34mSELECT "company_profiles".* FROM "company_profiles"[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered company_profiles/index.html.erb within layouts/application (6.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_alerts.html.erb (0.5ms)
+Completed 200 OK in 87ms (Views: 82.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/company_profiles/3" for ::1 at 2016-09-03 11:07:55 +1000
+Processing by CompanyProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCompanyProfile Load (0.3ms)[0m  [1m[34mSELECT  "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering company_profiles/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered company_profiles/show.html.erb within layouts/application (6.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_alerts.html.erb (0.6ms)
+Completed 200 OK in 92ms (Views: 87.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2016-09-03 11:39:41 +1000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_alerts.html.erb (0.8ms)
+Completed 200 OK in 222ms (Views: 206.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up?user_type=company" for ::1 at 2016-09-03 11:39:44 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"user_type"=>"company"}
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (9.2ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_alerts.html.erb (1.0ms)
+Completed 200 OK in 132ms (Views: 104.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-09-03 11:39:45 +1000
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (3.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (19.6ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_alerts.html.erb (1.0ms)
+Completed 200 OK in 118ms (Views: 115.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2016-09-03 11:39:48 +1000
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+hp+Y0eA91fYPCwd3/1Y1nj5XANxRhf09sWrrlZH0ltrwM+uGtg+jNUf294RB1OFlKtv5IQqc3C2mlcuCwJbag==", "user"=>{"email"=>"aaron@aarontakizad.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "aaron@aarontakizad.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", 2016-09-03 01:39:48 UTC], ["last_sign_in_at", 2016-09-03 00:51:08 UTC], ["sign_in_count", 3], ["updated_at", 2016-09-03 01:39:48 UTC], ["id", 1]]
+  [1m[35m (5.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 181ms (ActiveRecord: 5.7ms)
+
+
+Started GET "/" for ::1 at 2016-09-03 11:39:48 +1000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.3ms)
+  Rendered shared/_alerts.html.erb (1.0ms)
+Completed 200 OK in 76ms (Views: 73.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/company_profiles" for ::1 at 2016-09-03 11:39:51 +1000
+Processing by CompanyProfilesController#index as HTML
+  Rendering company_profiles/index.html.erb within layouts/application
+  [1m[36mCompanyProfile Load (0.2ms)[0m  [1m[34mSELECT "company_profiles".* FROM "company_profiles"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered company_profiles/index.html.erb within layouts/application (21.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.6ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 109ms (Views: 100.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/company_profiles" for ::1 at 2016-09-03 11:39:51 +1000
+Processing by CompanyProfilesController#index as HTML
+  Rendering company_profiles/index.html.erb within layouts/application
+  [1m[36mCompanyProfile Load (0.2ms)[0m  [1m[34mSELECT "company_profiles".* FROM "company_profiles"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered company_profiles/index.html.erb within layouts/application (6.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (4.5ms)
+  Rendered shared/_alerts.html.erb (1.0ms)
+Completed 200 OK in 104ms (Views: 99.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/company_profiles" for ::1 at 2016-09-03 11:39:52 +1000
+Processing by CompanyProfilesController#index as HTML
+  Rendering company_profiles/index.html.erb within layouts/application
+  [1m[36mCompanyProfile Load (0.2ms)[0m  [1m[34mSELECT "company_profiles".* FROM "company_profiles"[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered company_profiles/index.html.erb within layouts/application (4.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.9ms)
+  Rendered shared/_alerts.html.erb (1.1ms)
+Completed 200 OK in 93ms (Views: 87.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/company_profiles/3" for ::1 at 2016-09-03 11:39:53 +1000
+Processing by CompanyProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCompanyProfile Load (0.7ms)[0m  [1m[34mSELECT  "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering company_profiles/show.html.erb within layouts/application
+  Rendered company_profiles/show.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.7ms)
+
+
+  
+SyntaxError (/Users/aaron/Desktop/cf-web-app-builder/jobapp/app/views/company_profiles/show.html.erb:13: syntax error, unexpected '='
+...g @company_profile.logo, class='img-responsive', alt: @compa...
+...                               ^
+/Users/aaron/Desktop/cf-web-app-builder/jobapp/app/views/company_profiles/show.html.erb:13: syntax error, unexpected ',', expecting ')'
+...e.logo, class='img-responsive', alt: @company_profile.compan...
+...                               ^):
+  
+app/views/company_profiles/show.html.erb:13: syntax error, unexpected '='
+app/views/company_profiles/show.html.erb:13: syntax error, unexpected ',', expecting ')'
+  Rendering /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.8ms)
+  Rendering /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (88.5ms)
+Started GET "/company_profiles/3" for ::1 at 2016-09-03 11:40:34 +1000
+Processing by CompanyProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCompanyProfile Load (0.6ms)[0m  [1m[34mSELECT  "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering company_profiles/show.html.erb within layouts/application
+  Rendered company_profiles/show.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 80ms (Views: 74.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/company_profiles/3" for ::1 at 2016-09-03 11:40:38 +1000
+Processing by CompanyProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCompanyProfile Load (0.2ms)[0m  [1m[34mSELECT  "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering company_profiles/show.html.erb within layouts/application
+  Rendered company_profiles/show.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_alerts.html.erb (1.1ms)
+Completed 200 OK in 83ms (Views: 78.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/company_profiles" for ::1 at 2016-09-03 11:40:40 +1000
+Processing by CompanyProfilesController#index as HTML
+  Rendering company_profiles/index.html.erb within layouts/application
+  [1m[36mCompanyProfile Load (0.4ms)[0m  [1m[34mSELECT "company_profiles".* FROM "company_profiles"[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered company_profiles/index.html.erb within layouts/application (7.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.4ms)
+  Rendered shared/_alerts.html.erb (0.6ms)
+Completed 200 OK in 110ms (Views: 105.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/company_profiles/3" for ::1 at 2016-09-03 11:40:48 +1000
+Processing by CompanyProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCompanyProfile Load (1.1ms)[0m  [1m[34mSELECT  "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering company_profiles/show.html.erb within layouts/application
+  Rendered company_profiles/show.html.erb within layouts/application (4.6ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.9ms)
+  Rendered shared/_alerts.html.erb (1.0ms)
+Completed 200 OK in 126ms (Views: 119.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/company_profiles/3/edit" for ::1 at 2016-09-03 11:40:50 +1000
+Processing by CompanyProfilesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCompanyProfile Load (0.3ms)[0m  [1m[34mSELECT  "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering company_profiles/edit.html.erb within layouts/application
+  Rendered company_profiles/_form.html.erb (65.4ms)
+  Rendered company_profiles/edit.html.erb within layouts/application (69.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.9ms)
+  Rendered shared/_alerts.html.erb (1.0ms)
+Completed 200 OK in 156ms (Views: 150.8ms | ActiveRecord: 0.6ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2016-09-03 11:41:13 +1000
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"YlIQg4j47NVuJTm9qbORpUPmFUW2KUZQcDJhc6fUy1IiaUz02T2vb02Rh49Chbb2yT8nCbAHl15GDj8YF1V9nA=="}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 14ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2016-09-03 11:41:13 +1000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 77ms (Views: 74.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-09-03 11:41:15 +1000
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (25.5ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_alerts.html.erb (0.8ms)
+Completed 200 OK in 152ms (Views: 149.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2016-09-03 11:41:17 +1000
+Processing by RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (19.7ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_alerts.html.erb (1.2ms)
+Completed 200 OK in 124ms (Views: 121.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-09-03 11:41:21 +1000
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (20.6ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 115ms (Views: 109.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2016-09-03 11:41:27 +1000
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3K0EzA9JnCdR4YkKiORxkV6xc2BjWLLaTbb9UYB3CS1g4u7jCikBLowQsJsyVb9aAuL2PHb34r82PXIGpf2qgA==", "user"=>{"email"=>"aaron@aarontakizad.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "aaron@aarontakizad.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", 2016-09-03 01:41:27 UTC], ["last_sign_in_at", 2016-09-03 01:39:48 UTC], ["sign_in_count", 4], ["updated_at", 2016-09-03 01:41:27 UTC], ["id", 1]]
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 244ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/" for ::1 at 2016-09-03 11:41:27 +1000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.0ms)
+  Rendered shared/_alerts.html.erb (1.0ms)
+Completed 200 OK in 86ms (Views: 78.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/sign_up?user_type=company" for ::1 at 2016-09-03 11:41:28 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"user_type"=>"company"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-09-03 11:41:28 +1000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (4.2ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 125ms (Views: 119.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/sign_up?user_type=company" for ::1 at 2016-09-03 11:41:29 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"user_type"=>"company"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-09-03 11:41:29 +1000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_alerts.html.erb (2.6ms)
+Completed 200 OK in 146ms (Views: 141.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/company_profiles" for ::1 at 2016-09-03 11:41:31 +1000
+Processing by CompanyProfilesController#index as HTML
+  Rendering company_profiles/index.html.erb within layouts/application
+  [1m[36mCompanyProfile Load (0.2ms)[0m  [1m[34mSELECT "company_profiles".* FROM "company_profiles"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered company_profiles/index.html.erb within layouts/application (4.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.8ms)
+  Rendered shared/_alerts.html.erb (1.5ms)
+Completed 200 OK in 95ms (Views: 91.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/company_profiles/3" for ::1 at 2016-09-03 11:41:56 +1000
+Processing by CompanyProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCompanyProfile Load (0.3ms)[0m  [1m[34mSELECT  "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering company_profiles/show.html.erb within layouts/application
+  Rendered company_profiles/show.html.erb within layouts/application (3.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (8.5ms)
+  Rendered shared/_alerts.html.erb (0.6ms)
+Completed 200 OK in 105ms (Views: 100.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/company_profiles/3/edit" for ::1 at 2016-09-03 11:42:13 +1000
+Processing by CompanyProfilesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCompanyProfile Load (0.3ms)[0m  [1m[34mSELECT  "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering company_profiles/edit.html.erb within layouts/application
+  Rendered company_profiles/_form.html.erb (64.5ms)
+  Rendered company_profiles/edit.html.erb within layouts/application (68.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.3ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 150ms (Views: 144.2ms | ActiveRecord: 0.6ms)
+
+
+Started PATCH "/company_profiles/3" for ::1 at 2016-09-03 11:42:20 +1000
+Processing by CompanyProfilesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QX5mepxqjrCjWhARXjTbPmXEUCmWJugyVW5YsQ8M45h4lXBPIemzp2qNac7U1lBjSyRgT9hfmBOv/jkYdiOXJg==", "company_profile"=>{"first_name"=>"Aaron", "last_name"=>"Takizad", "phone"=>"0431438241", "company_name"=>"Freelance Web Developer", "company_type"=>"New Startup", "logo"=>#<ActionDispatch::Http::UploadedFile:0x007fdb59291350 @tempfile=#<Tempfile:/var/folders/m9/40kj4n1n0v9692rtjg9zkdy80000gn/T/RackMultipart20160903-6501-10osfz6.jpg>, @original_filename="web-dev-student-illustration-Feature_1290x688_MS1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"company_profile[logo]\"; filename=\"web-dev-student-illustration-Feature_1290x688_MS1.jpg\"\r\nContent-Type: image/jpeg\r\n">, "description"=>"Hi", "company_culture"=>"Hi", "street"=>"4 Montpellier Rise", "suburb"=>"Bella Vista", "postcode"=>"2153", "country"=>"AU"}, "commit"=>"Update Company profile", "id"=>"3"}
+  [1m[36mCompanyProfile Load (0.2ms)[0m  [1m[34mSELECT  "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCompanyProfile Load (0.2ms)[0m  [1m[34mSELECT  "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "company_profiles" SET "logo" = ?, "updated_at" = ? WHERE "company_profiles"."id" = ?[0m  [["logo", "ny6wqcas4xjoae4giawj.jpg"], ["updated_at", 2016-09-03 01:42:20 UTC], ["id", 3]]
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "company_profiles" SET "logo" = 'image/upload/v1472866942/ny6wqcas4xjoae4giawj.jpg' WHERE "company_profiles"."id" = ?[0m  [["id", 3]]
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/company_profiles/3
+Completed 302 Found in 2621ms (ActiveRecord: 4.4ms)
+
+
+Started GET "/company_profiles/3" for ::1 at 2016-09-03 11:42:23 +1000
+Processing by CompanyProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCompanyProfile Load (0.2ms)[0m  [1m[34mSELECT  "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering company_profiles/show.html.erb within layouts/application
+  Rendered company_profiles/show.html.erb within layouts/application (7.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.5ms)
+  Rendered shared/_alerts.html.erb (0.7ms)
+Completed 200 OK in 78ms (Views: 74.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/company_profiles/3" for ::1 at 2016-09-03 11:42:28 +1000
+Processing by CompanyProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCompanyProfile Load (0.2ms)[0m  [1m[34mSELECT  "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering company_profiles/show.html.erb within layouts/application
+  Rendered company_profiles/show.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.8ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 87ms (Views: 82.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/company_profiles/3" for ::1 at 2016-09-03 11:42:28 +1000
+Processing by CompanyProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCompanyProfile Load (0.2ms)[0m  [1m[34mSELECT  "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering company_profiles/show.html.erb within layouts/application
+  Rendered company_profiles/show.html.erb within layouts/application (2.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.5ms)
+  Rendered shared/_alerts.html.erb (0.8ms)
+Completed 200 OK in 84ms (Views: 79.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/company_profiles" for ::1 at 2016-09-03 11:42:32 +1000
+Processing by CompanyProfilesController#index as HTML
+  Rendering company_profiles/index.html.erb within layouts/application
+  [1m[36mCompanyProfile Load (0.5ms)[0m  [1m[34mSELECT "company_profiles".* FROM "company_profiles"[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered company_profiles/index.html.erb within layouts/application (9.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_alerts.html.erb (1.4ms)
+Completed 200 OK in 99ms (Views: 93.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/company_profiles/3" for ::1 at 2016-09-03 11:42:37 +1000
+Processing by CompanyProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCompanyProfile Load (0.2ms)[0m  [1m[34mSELECT  "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering company_profiles/show.html.erb within layouts/application
+  Rendered company_profiles/show.html.erb within layouts/application (3.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.5ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 106ms (Views: 100.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/company_profiles/3" for ::1 at 2016-09-03 11:42:40 +1000
+Processing by CompanyProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCompanyProfile Load (0.2ms)[0m  [1m[34mSELECT  "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering company_profiles/show.html.erb within layouts/application
+  Rendered company_profiles/show.html.erb within layouts/application (2.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.5ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 93ms (Views: 86.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/company_profiles" for ::1 at 2016-09-03 11:44:33 +1000
+Processing by CompanyProfilesController#index as HTML
+  Rendering company_profiles/index.html.erb within layouts/application
+  [1m[36mCompanyProfile Load (0.2ms)[0m  [1m[34mSELECT "company_profiles".* FROM "company_profiles"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered company_profiles/index.html.erb within layouts/application (6.5ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 144ms (Views: 140.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/company_profiles/3" for ::1 at 2016-09-03 11:44:36 +1000
+Processing by CompanyProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCompanyProfile Load (0.3ms)[0m  [1m[34mSELECT  "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering company_profiles/show.html.erb within layouts/application
+  Rendered company_profiles/show.html.erb within layouts/application (4.4ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_alerts.html.erb (0.8ms)
+Completed 200 OK in 77ms (Views: 72.9ms | ActiveRecord: 0.3ms)
+
+
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/aaron/Desktop/cf-web-app-builder/jobapp/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/aaron/Desktop/cf-web-app-builder/jobapp/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/aaron/Desktop/cf-web-app-builder/jobapp/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/aaron/Desktop/cf-web-app-builder/jobapp/config/environment.rb:5)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateSkillCategories (20160903015603)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "skill_categories" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160903015603"]]
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_company_profiles_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_company_profiles_on_user_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_roles_on_name_and_resource_type_and_resource_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_roles_on_name_and_resource_type_and_resource_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_roles_on_name' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_roles_on_name' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_roles_on_user_id_and_role_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_roles_on_user_id_and_role_id' AND type='index'
+[0m
+Started GET "/company_profiles/3" for ::1 at 2016-09-03 11:59:46 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CompanyProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCompanyProfile Load (0.3ms)[0m  [1m[34mSELECT  "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering company_profiles/show.html.erb within layouts/application
+  Rendered company_profiles/show.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 1.0ms)
+
+
+  
+SyntaxError (/Users/aaron/Desktop/cf-web-app-builder/jobapp/app/views/company_profiles/show.html.erb:29: syntax error, unexpected '<', expecting ')'
+        <% end );@output_buffer.safe_append='
+         ^
+/Users/aaron/Desktop/cf-web-app-builder/jobapp/app/views/company_profiles/show.html.erb:35: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/aaron/Desktop/cf-web-app-builder/jobapp/app/views/company_profiles/show.html.erb:37: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/company_profiles/show.html.erb:29: syntax error, unexpected '<', expecting ')'
+app/views/company_profiles/show.html.erb:35: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/company_profiles/show.html.erb:37: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.6ms)
+  Rendering /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (75.1ms)
+Started GET "/company_profiles/3" for ::1 at 2016-09-03 11:59:50 +1000
+Processing by CompanyProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCompanyProfile Load (0.2ms)[0m  [1m[34mSELECT  "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering company_profiles/show.html.erb within layouts/application
+  Rendered company_profiles/show.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.2ms)
+
+
+  
+SyntaxError (/Users/aaron/Desktop/cf-web-app-builder/jobapp/app/views/company_profiles/show.html.erb:29: syntax error, unexpected '<', expecting ')'
+        <% end );@output_buffer.safe_append='
+         ^
+/Users/aaron/Desktop/cf-web-app-builder/jobapp/app/views/company_profiles/show.html.erb:35: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/aaron/Desktop/cf-web-app-builder/jobapp/app/views/company_profiles/show.html.erb:37: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/company_profiles/show.html.erb:29: syntax error, unexpected '<', expecting ')'
+app/views/company_profiles/show.html.erb:35: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/company_profiles/show.html.erb:37: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.2ms)
+  Rendering /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (83.9ms)
+Started GET "/company_profiles/3" for ::1 at 2016-09-03 12:00:23 +1000
+Processing by CompanyProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCompanyProfile Load (0.2ms)[0m  [1m[34mSELECT  "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering company_profiles/show.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered company_profiles/show.html.erb within layouts/application (27.7ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_alerts.html.erb (0.5ms)
+Completed 200 OK in 227ms (Views: 220.5ms | ActiveRecord: 1.4ms)
+
+
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/aaron/Desktop/cf-web-app-builder/jobapp/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/aaron/Desktop/cf-web-app-builder/jobapp/config/environment.rb:5)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateSkills (20160903020157)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "skills" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "skill_category_id" integer, "name" varchar, "description" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_skills_on_skill_category_id" ON "skills" ("skill_category_id")[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160903020157"]]
+  [1m[35m (5.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_company_profiles_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_company_profiles_on_user_id' AND type='index'
+[0m
+  [1m[35m (0.4ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_roles_on_name_and_resource_type_and_resource_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_roles_on_name_and_resource_type_and_resource_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_roles_on_name' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_roles_on_name' AND type='index'
+[0m
+  [1m[35m (0.4ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_skills_on_skill_category_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_skills_on_skill_category_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_roles_on_user_id_and_role_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_roles_on_user_id_and_role_id' AND type='index'
+[0m
+Started GET "/company_profiles/3" for ::1 at 2016-09-03 12:03:27 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CompanyProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCompanyProfile Load (0.2ms)[0m  [1m[34mSELECT  "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering company_profiles/show.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered company_profiles/show.html.erb within layouts/application (16.0ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+  Rendered shared/_alerts.html.erb (0.5ms)
+Completed 200 OK in 208ms (Views: 178.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/company_profiles/3" for ::1 at 2016-09-03 12:09:13 +1000
+Processing by CompanyProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCompanyProfile Load (0.2ms)[0m  [1m[34mSELECT  "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering company_profiles/show.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered company_profiles/show.html.erb within layouts/application (3.8ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_alerts.html.erb (1.1ms)
+Completed 200 OK in 89ms (Views: 85.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-09-03 12:09:16 +1000
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (13.4ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_alerts.html.erb (0.7ms)
+Completed 200 OK in 103ms (Views: 100.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2016-09-03 12:09:25 +1000
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"D4YfHrdCEPEd0poOK/3+KlE4c7y3mqmP4RRMnYdJ2Si9BOu3RayXLUxBAlaSNcAjjLxWy1QqhiJ7FUy7I8/U2w==", "user"=>{"email"=>"aaron@aarontakizad.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "aaron@aarontakizad.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", 2016-09-03 02:09:25 UTC], ["last_sign_in_at", 2016-09-03 01:41:27 UTC], ["sign_in_count", 5], ["updated_at", 2016-09-03 02:09:25 UTC], ["id", 1]]
+  [1m[35m (7.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 203ms (ActiveRecord: 8.6ms)
+
+
+Started GET "/" for ::1 at 2016-09-03 12:09:25 +1000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (4.6ms)
+  Rendered shared/_alerts.html.erb (0.7ms)
+Completed 200 OK in 123ms (Views: 117.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/skill_categories" for ::1 at 2016-09-03 12:09:29 +1000
+Processing by SkillCategoriesController#index as HTML
+  Rendering skill_categories/index.html.erb within layouts/application
+  [1m[36mSkillCategory Load (0.6ms)[0m  [1m[34mSELECT "skill_categories".* FROM "skill_categories"[0m
+  Rendered skill_categories/index.html.erb within layouts/application (6.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.1ms)
+  Rendered shared/_alerts.html.erb (1.0ms)
+Completed 200 OK in 93ms (Views: 81.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/skills" for ::1 at 2016-09-03 12:09:30 +1000
+Processing by SkillsController#index as HTML
+  Rendering skills/index.html.erb within layouts/application
+  [1m[36mSkill Load (0.6ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+  Rendered skills/index.html.erb within layouts/application (5.8ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.3ms)
+  Rendered shared/_alerts.html.erb (1.0ms)
+Completed 200 OK in 112ms (Views: 99.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/skills/new" for ::1 at 2016-09-03 12:09:33 +1000
+Processing by SkillsController#new as HTML
+  Rendering skills/new.html.erb within layouts/application
+  [1m[36mSkillCategory Load (0.2ms)[0m  [1m[34mSELECT "skill_categories".* FROM "skill_categories"[0m
+  Rendered skills/_form.html.erb (12.0ms)
+  Rendered skills/new.html.erb within layouts/application (16.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.5ms)
+  Rendered shared/_alerts.html.erb (1.0ms)
+Completed 200 OK in 126ms (Views: 109.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/skill_categories" for ::1 at 2016-09-03 12:09:36 +1000
+Processing by SkillCategoriesController#index as HTML
+  Rendering skill_categories/index.html.erb within layouts/application
+  [1m[36mSkillCategory Load (0.3ms)[0m  [1m[34mSELECT "skill_categories".* FROM "skill_categories"[0m
+  Rendered skill_categories/index.html.erb within layouts/application (2.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (4.8ms)
+  Rendered shared/_alerts.html.erb (1.1ms)
+Completed 200 OK in 102ms (Views: 97.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/skill_categories/new" for ::1 at 2016-09-03 12:09:37 +1000
+Processing by SkillCategoriesController#new as HTML
+  Rendering skill_categories/new.html.erb within layouts/application
+  Rendered skill_categories/_form.html.erb (7.8ms)
+  Rendered skill_categories/new.html.erb within layouts/application (10.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (8.6ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 110ms (Views: 97.4ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/skill_categories" for ::1 at 2016-09-03 12:09:42 +1000
+Processing by SkillCategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"j+IpC/QhMQfmqq6/WCJW7DSRGoEoji0Ht4aOZTU2HHFCdw8sfaQoa/d8T9zeDnkAT+KcLmjhfjov+7PPNNhP6Q==", "skill_category"=>{"name"=>"Hello!!", "description"=>"It's awesome"}, "commit"=>"Create Skill category"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "skill_categories" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Hello!!"], ["description", "It's awesome"], ["created_at", 2016-09-03 02:09:42 UTC], ["updated_at", 2016-09-03 02:09:42 UTC]]
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/skill_categories/1
+Completed 302 Found in 13ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/skill_categories/1" for ::1 at 2016-09-03 12:09:42 +1000
+Processing by SkillCategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSkillCategory Load (0.2ms)[0m  [1m[34mSELECT  "skill_categories".* FROM "skill_categories" WHERE "skill_categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering skill_categories/show.html.erb within layouts/application
+  Rendered skill_categories/show.html.erb within layouts/application (2.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.2ms)
+  Rendered shared/_alerts.html.erb (1.0ms)
+Completed 200 OK in 84ms (Views: 79.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/skills" for ::1 at 2016-09-03 12:09:43 +1000
+Processing by SkillsController#index as HTML
+  Rendering skills/index.html.erb within layouts/application
+  [1m[36mSkill Load (0.2ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+  Rendered skills/index.html.erb within layouts/application (3.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_alerts.html.erb (1.5ms)
+Completed 200 OK in 113ms (Views: 109.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/skills/new" for ::1 at 2016-09-03 12:09:44 +1000
+Processing by SkillsController#new as HTML
+  Rendering skills/new.html.erb within layouts/application
+  [1m[36mSkillCategory Load (0.3ms)[0m  [1m[34mSELECT "skill_categories".* FROM "skill_categories"[0m
+  Rendered skills/_form.html.erb (17.5ms)
+  Rendered skills/new.html.erb within layouts/application (22.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.3ms)
+  Rendered shared/_alerts.html.erb (1.1ms)
+Completed 200 OK in 110ms (Views: 105.5ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/skills" for ::1 at 2016-09-03 12:09:49 +1000
+Processing by SkillsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"13FsGNklRyAtxgYFXGaTyrZp//ww+IdALgY1z9N+HUIa5Eo/UKBeTDwQ52baSrwmzRp5U3CX1H22ewhl0pBO2g==", "skill"=>{"skill_category_id"=>"1", "name"=>"Hi", "description"=>"Hello there"}, "commit"=>"Create Skill"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "skills" ("skill_category_id", "name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["skill_category_id", 1], ["name", "Hi"], ["description", "Hello there"], ["created_at", 2016-09-03 02:09:49 UTC], ["updated_at", 2016-09-03 02:09:49 UTC]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/skills/1
+Completed 302 Found in 11ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/skills/1" for ::1 at 2016-09-03 12:09:49 +1000
+Processing by SkillsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSkill Load (0.2ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" WHERE "skills"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering skills/show.html.erb within layouts/application
+  [1m[36mSkillCategory Load (0.2ms)[0m  [1m[34mSELECT  "skill_categories".* FROM "skill_categories" WHERE "skill_categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered skills/show.html.erb within layouts/application (3.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.0ms)
+  Rendered shared/_alerts.html.erb (0.6ms)
+Completed 200 OK in 91ms (Views: 86.2ms | ActiveRecord: 0.6ms)
+
+
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/aaron/Desktop/cf-web-app-builder/jobapp/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/aaron/Desktop/cf-web-app-builder/jobapp/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-03 13:11:25 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (10.1ms)
+  Rendered shared/_navbar.html.erb (9.0ms)
+  Rendered shared/_alerts.html.erb (0.6ms)
+Completed 200 OK in 660ms (Views: 647.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/skills" for ::1 at 2016-09-03 13:11:28 +1000
+Processing by SkillsController#index as HTML
+  Rendering skills/index.html.erb within layouts/application
+  [1m[36mSkill Load (0.2ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+  [1m[36mSkillCategory Load (0.2ms)[0m  [1m[34mSELECT  "skill_categories".* FROM "skill_categories" WHERE "skill_categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered skills/index.html.erb within layouts/application (38.7ms)
+  Rendered shared/_navbar.html.erb (2.6ms)
+  Rendered shared/_alerts.html.erb (2.0ms)
+Completed 200 OK in 158ms (Views: 152.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/skills/1" for ::1 at 2016-09-03 13:11:31 +1000
+Processing by SkillsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSkill Load (1.2ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" WHERE "skills"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering skills/show.html.erb within layouts/application
+  [1m[36mSkillCategory Load (0.3ms)[0m  [1m[34mSELECT  "skill_categories".* FROM "skill_categories" WHERE "skill_categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered skills/show.html.erb within layouts/application (6.1ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+  Rendered shared/_alerts.html.erb (0.7ms)
+Completed 200 OK in 99ms (Views: 91.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/skills" for ::1 at 2016-09-03 13:11:33 +1000
+Processing by SkillsController#index as HTML
+  Rendering skills/index.html.erb within layouts/application
+  [1m[36mSkill Load (1.2ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+  [1m[36mSkillCategory Load (1.1ms)[0m  [1m[34mSELECT  "skill_categories".* FROM "skill_categories" WHERE "skill_categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered skills/index.html.erb within layouts/application (9.0ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_alerts.html.erb (0.8ms)
+Completed 200 OK in 94ms (Views: 88.0ms | ActiveRecord: 2.3ms)
+
+
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/aaron/Desktop/cf-web-app-builder/jobapp/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/aaron/Desktop/cf-web-app-builder/jobapp/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-03 13:23:07 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.0.0.1) lib/active_record/migration.rb:572:in `check_pending!'
+activerecord (5.0.0.1) lib/active_record/migration.rb:548:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendering /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/aaron/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (383.9ms)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/aaron/Desktop/cf-web-app-builder/jobapp/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/aaron/Desktop/cf-web-app-builder/jobapp/config/environment.rb:5)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateStudentProfiles (20160903031837)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "student_profiles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar, "last_name" varchar, "phone" varchar, "bio" text, "website" varchar, "github_username" varchar, "linkedin_url" varchar, "photo" varchar, "cv" varchar, "city" varchar, "country" varchar, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_student_profiles_on_user_id" ON "student_profiles" ("user_id")[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160903031837"]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_company_profiles_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_company_profiles_on_user_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_roles_on_name_and_resource_type_and_resource_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_roles_on_name_and_resource_type_and_resource_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_roles_on_name' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_roles_on_name' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_skills_on_skill_category_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_skills_on_skill_category_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_student_profiles_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_student_profiles_on_user_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_roles_on_user_id_and_role_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_roles_on_user_id_and_role_id' AND type='index'
+[0m
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/aaron/Desktop/cf-web-app-builder/jobapp/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/aaron/Desktop/cf-web-app-builder/jobapp/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-03 13:23:31 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (6.7ms)
+  Rendered shared/_navbar.html.erb (8.8ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 758ms (Views: 743.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up?user_type=student" for ::1 at 2016-09-03 13:23:34 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"user_type"=>"student"}
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (96.5ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_alerts.html.erb (0.8ms)
+Completed 200 OK in 240ms (Views: 208.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/users/sign_up?user_type=company" for ::1 at 2016-09-03 13:23:36 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"user_type"=>"company"}
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (16.0ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_alerts.html.erb (1.0ms)
+Completed 200 OK in 107ms (Views: 104.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up?user_type=student" for ::1 at 2016-09-03 13:23:37 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"user_type"=>"student"}
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (14.6ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_alerts.html.erb (0.8ms)
+Completed 200 OK in 136ms (Views: 133.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up?user_type=student" for ::1 at 2016-09-03 13:24:44 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"user_type"=>"student"}
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (18.3ms)
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_alerts.html.erb (0.8ms)
+Completed 200 OK in 134ms (Views: 131.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up?user_type=student" for ::1 at 2016-09-03 13:24:46 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"user_type"=>"student"}
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (18.2ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+  Rendered shared/_alerts.html.erb (0.6ms)
+Completed 200 OK in 131ms (Views: 128.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2016-09-03 13:24:50 +1000
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0OwdaHqSM3ZAiu0X8peI2DZKYvcwO63tOoXj7LWZlrnOQe9q1dYUqBs/jtJ6St236xKVwpUiFy5wZ+mxujYJAQ==", "user"=>{"email"=>"aaron@aarontakizad.com", "password"=>"[FILTERED]", "user_type"=>"student"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "aaron@aarontakizad.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (10.2ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_alerts.html.erb (0.8ms)
+Completed 200 OK in 390ms (Views: 102.3ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for ::1 at 2016-09-03 13:24:54 +1000
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ceoeZkJIdAKV8dgJkrffQUnQpqThaZQh3WIKaI5R4nZvR+xk7QxT3M5Eu8waaooulIhRkURwLuKXgAA1gf59zg==", "user"=>{"email"=>"aaron@aarontakizad.com.au", "password"=>"[FILTERED]", "user_type"=>""}, "commit"=>"Sign up"}
+  [1m[35m (0.6ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "aaron@aarontakizad.com.au"], ["LIMIT", 1]]
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "user_type") VALUES (?, ?, ?, ?, ?)[0m  [["email", "aaron@aarontakizad.com.au"], ["encrypted_password", "$2a$11$UbDidV.d0ej7RSbhV7nY6uZIV8sp02RexnXo81RDjeVsIARhcfeve"], ["created_at", 2016-09-03 03:24:55 UTC], ["updated_at", 2016-09-03 03:24:55 UTC], ["user_type", ""]]
+  [1m[35m (5.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = ?, "current_sign_in_at" = ?, "last_sign_in_at" = ?, "current_sign_in_ip" = ?, "last_sign_in_ip" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["sign_in_count", 1], ["current_sign_in_at", 2016-09-03 03:24:55 UTC], ["last_sign_in_at", 2016-09-03 03:24:55 UTC], ["current_sign_in_ip", "::1"], ["last_sign_in_ip", "::1"], ["updated_at", 2016-09-03 03:24:55 UTC], ["id", 2]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 212ms (ActiveRecord: 10.7ms)
+
+
+Started GET "/" for ::1 at 2016-09-03 13:24:55 +1000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.5ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 66ms (Views: 63.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/sign_up?user_type=student" for ::1 at 2016-09-03 13:24:56 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"user_type"=>"student"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2016-09-03 13:24:56 +1000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.6ms)
+  Rendered shared/_alerts.html.erb (0.8ms)
+Completed 200 OK in 136ms (Views: 131.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users/sign_up?user_type=student" for ::1 at 2016-09-03 13:24:57 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"user_type"=>"student"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-09-03 13:24:57 +1000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.1ms)
+  Rendered shared/_alerts.html.erb (1.0ms)
+Completed 200 OK in 122ms (Views: 117.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/skills" for ::1 at 2016-09-03 13:25:02 +1000
+Processing by SkillsController#index as HTML
+  Rendering skills/index.html.erb within layouts/application
+  [1m[36mSkill Load (0.2ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+  [1m[36mSkillCategory Load (0.2ms)[0m  [1m[34mSELECT  "skill_categories".* FROM "skill_categories" WHERE "skill_categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered skills/index.html.erb within layouts/application (27.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.3ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 119ms (Views: 109.8ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/skills" for ::1 at 2016-09-03 13:26:46 +1000
+Processing by SkillsController#index as HTML
+  Rendering skills/index.html.erb within layouts/application
+  [1m[36mSkill Load (0.5ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+  [1m[36mSkillCategory Load (0.8ms)[0m  [1m[34mSELECT  "skill_categories".* FROM "skill_categories" WHERE "skill_categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered skills/index.html.erb within layouts/application (6.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.4ms)
+  Rendered shared/_alerts.html.erb (1.3ms)
+Completed 200 OK in 115ms (Views: 109.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for ::1 at 2016-09-03 13:30:25 +1000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (4.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (31.6ms)
+  Rendered shared/_alerts.html.erb (1.1ms)
+Completed 200 OK in 206ms (Views: 193.3ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/users/sign_up?user_type=company" for ::1 at 2016-09-03 13:30:26 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"user_type"=>"company"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2016-09-03 13:30:26 +1000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_alerts.html.erb (0.7ms)
+Completed 200 OK in 72ms (Views: 67.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/sign_up?user_type=student" for ::1 at 2016-09-03 13:30:28 +1000
+Processing by RegistrationsController#new as HTML
+  Parameters: {"user_type"=>"student"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-09-03 13:30:28 +1000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.1ms)
+  Rendered shared/_alerts.html.erb (1.2ms)
+Completed 200 OK in 100ms (Views: 97.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-09-03 13:33:08 +1000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.4ms)
+  Rendered shared/_alerts.html.erb (1.1ms)
+Completed 200 OK in 87ms (Views: 83.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/student_profiles/new" for ::1 at 2016-09-03 13:33:13 +1000
+Processing by StudentProfilesController#new as HTML
+  Rendering student_profiles/new.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered student_profiles/_form.html.erb (102.5ms)
+  Rendered student_profiles/new.html.erb within layouts/application (106.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 197ms (Views: 178.9ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/student_profiles" for ::1 at 2016-09-03 13:33:45 +1000
+Processing by StudentProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kl0Lzq1CqKRcRV0TaohFS/5tmbsqdeDS41hOlymm/gyM8PnMAgaPegfwPtbiVRAkIzVujo9sWhGpukTKJglhtA==", "student_profile"=>{"first_name"=>"Aaron", "last_name"=>"Takizad", "phone"=>"0431438241", "bio"=>"Hi", "website"=>"www.codewithme.com.au", "github_username"=>"AaronTakizad", "linkedin_url"=>"lol", "photo"=>"hi", "cv"=>"here.", "city"=>"sydney", "country"=>"AU", "user_id"=>"1"}, "commit"=>"Create Student profile"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "student_profiles" ("first_name", "last_name", "phone", "bio", "website", "github_username", "linkedin_url", "photo", "cv", "city", "country", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Aaron"], ["last_name", "Takizad"], ["phone", "0431438241"], ["bio", "Hi"], ["website", "www.codewithme.com.au"], ["github_username", "AaronTakizad"], ["linkedin_url", "lol"], ["photo", "hi"], ["cv", "here."], ["city", "sydney"], ["country", "AU"], ["user_id", 1], ["created_at", 2016-09-03 03:33:45 UTC], ["updated_at", 2016-09-03 03:33:45 UTC]]
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/student_profiles/1
+Completed 302 Found in 24ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/student_profiles/1" for ::1 at 2016-09-03 13:33:45 +1000
+Processing by StudentProfilesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mStudentProfile Load (0.3ms)[0m  [1m[34mSELECT  "student_profiles".* FROM "student_profiles" WHERE "student_profiles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering student_profiles/show.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered student_profiles/show.html.erb within layouts/application (11.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.8ms)
+  Rendered shared/_alerts.html.erb (1.1ms)
+Completed 200 OK in 127ms (Views: 117.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/student_profiles" for ::1 at 2016-09-03 13:33:50 +1000
+Processing by StudentProfilesController#index as HTML
+  Rendering student_profiles/index.html.erb within layouts/application
+  [1m[36mStudentProfile Load (0.2ms)[0m  [1m[34mSELECT "student_profiles".* FROM "student_profiles"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered student_profiles/index.html.erb within layouts/application (7.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_alerts.html.erb (0.9ms)
+Completed 200 OK in 102ms (Views: 96.1ms | ActiveRecord: 0.6ms)
+
+
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/aaron/Desktop/cf-web-app-builder/jobapp/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/aaron/Desktop/cf-web-app-builder/jobapp/config/environment.rb:5)

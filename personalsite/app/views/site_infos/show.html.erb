@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Brand:</strong>
+  <%= @site_info.brand %>
+</p>
+
+<p>
+  <strong>Heading:</strong>
+  <%= @site_info.heading %>
+</p>
+
+<p>
+  <strong>Subheading:</strong>
+  <%= @site_info.subheading %>
+</p>
+
+<p>
+  <strong>Lead:</strong>
+  <%= @site_info.lead %>
+</p>
+
+<%= link_to 'Edit', edit_site_info_path(@site_info) %> |
+<%= link_to 'Back', site_infos_path %>

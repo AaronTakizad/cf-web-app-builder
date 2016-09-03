@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Clientmanager</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= link_to 'Home', root_path %>
+    <%= link_to 'Companies', companies_path %>
+    <%= link_to 'Orders', orders_path %>
+    <%= link_to 'Company Locations', company_locations_path %>
+    <%= link_to 'Clients', clients_path %>
+    <%= yield %>
+  </body>
+</html>

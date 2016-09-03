@@ -1,0 +1,64 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @student_profile.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @student_profile.last_name %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @student_profile.phone %>
+</p>
+
+<p>
+  <strong>Bio:</strong>
+  <%= @student_profile.bio %>
+</p>
+
+<p>
+  <strong>Website:</strong>
+  <%= @student_profile.website %>
+</p>
+
+<p>
+  <strong>Github username:</strong>
+  <%= @student_profile.github_username %>
+</p>
+
+<p>
+  <strong>Linkedin url:</strong>
+  <%= @student_profile.linkedin_url %>
+</p>
+
+<p>
+  <strong>Photo:</strong>
+  <%= @student_profile.photo %>
+</p>
+
+<p>
+  <strong>Cv:</strong>
+  <%= @student_profile.cv %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @student_profile.city %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @student_profile.country %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @student_profile.user %>
+</p>
+
+<%= link_to 'Edit', edit_student_profile_path(@student_profile) %> |
+<%= link_to 'Back', student_profiles_path %>

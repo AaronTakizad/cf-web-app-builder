@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @company.name %>
+</p>
+
+<p>
+  <strong>Logo:</strong>
+  <%= @company.logo %>
+</p>
+
+<p>
+  <strong>Headquarters:</strong>
+  <%= @company.headquarters %>
+</p>
+
+<p>
+  <strong>Company Locations</strong>
+  <ul>
+    <% @company.company_locations.each do |location| %>
+    <li><%= location.name %></li>
+    <% end %>
+  </ul>
+  <%= link_to 'Add Company Location', new_company_location_path(company: @company.id) %>
+</p>
+
+<%= link_to 'Edit', edit_company_path(@company) %> |
+<%= link_to 'Back', companies_path %>

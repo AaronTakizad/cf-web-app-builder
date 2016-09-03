@@ -1,0 +1,8 @@
+<h1><%= @article.title %></h1>
+<p>Created at: <%= @article.created_at.strftime('%D %r %z') %>
+<hr>
+<p><%= @article.content %></p>
+<hr>
+<p><%= link_to 'Edit', edit_article_path(@article)%></p>
+<p><%= link_to 'All articles', articles_path %>
+<%= render 'comments/form', comment: @comment %>
